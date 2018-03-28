@@ -43,7 +43,7 @@ visit http://localhost:9000/ribbon-consumer
 它也是基于 Netflix 的开源框架 Hystrix 实现的，该框架的目标在于通过控制那些访问远程系统、服务和第三方库的节点，从而对延迟和故障提供更强大的容错能力。
 Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存、请求合并以及服务监控等强大功能。）
 
-5、简单的使用 spring cloud feign 调用hello-service服务 
+5、简单的使用 spring cloud feign 声明式调用hello-service服务 
 
 6、使用localhost:9001/feign-consumer3 访问hello-service，简化代码，使用hello-service-api作为公共接口库，实现其类和接口，实现类为RefactorHelloService
 
