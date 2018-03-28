@@ -45,5 +45,5 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
 
 5、简单的使用 spring cloud feign 调用hello-service服务 
 
-6、使用/feign-consumer3 访问hello-service，简化代码，使用hello-service-api作为公共接口库，实现其类和接口，实现类为RefactorHelloService
+6、使用localhost:9001/feign-consumer3 访问hello-service，简化代码，使用hello-service-api作为公共接口库，实现其类和接口，实现类为RefactorHelloService
 
