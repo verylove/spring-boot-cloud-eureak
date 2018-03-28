@@ -3,10 +3,12 @@ package com.example.ribbonconsumer;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@EnableCircuitBreaker
 public class HelloService {
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(HelloService.class);
 

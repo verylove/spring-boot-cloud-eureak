@@ -8,13 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="feign-consumer" />
+        <module name="hystrix-client" />
+        <module name="hystrix-dashboard" />
         <module name="ribbon-consumer" />
+        <module name="test-hystrix-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hystrix-client" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
+      <module name="test-hystrix-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

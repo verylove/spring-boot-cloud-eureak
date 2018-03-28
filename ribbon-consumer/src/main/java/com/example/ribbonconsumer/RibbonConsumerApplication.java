@@ -8,9 +8,10 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableCircuitBreaker
+@EnableCircuitBreaker //开启断路功能
 public class RibbonConsumerApplication {
 
 	@Bean
