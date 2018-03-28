@@ -11,6 +11,9 @@ public class ConsumerController {
     @Autowired
     HelloService helloService;
 
+    @Autowired
+    RefactorHelloService refactorHelloService;
+
     @RequestMapping(value="/feign-consumer",method = RequestMethod.GET)
     public String helloConsumer(){
         return helloService.hello();
@@ -26,4 +29,18 @@ public class ConsumerController {
         sb.append(helloService.hello(new User("DIDI",30))).append("\n");
         return sb.toString();
     }
+
+
+
+
+    @RequestMapping(value = "/feign-consumer3",method = RequestMethod.GET)
+    public String helloConsumer3(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("<pre>Ref \n");
+        sb.append(refactorHelloService.hello("MIMI")).append("\n");
+        sb.append(refactorHelloService.hello("MIMI",30)).append("\n");
+        sb.append(refactorHelloService.hello(new com.example.helloserviceapi.dto.User("MIMI",30))).append("\n");
+        return sb.toString();
+    }
+
 }

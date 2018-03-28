@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/hystrix-client/pom.xml" />
         <option value="$PROJECT_DIR$/feign-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/test-hystrix-client/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-service-api/pom.xml" />
       </list>
     </option>
   </component>
