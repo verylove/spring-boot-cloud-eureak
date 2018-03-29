@@ -8,6 +8,8 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8-sources.jar!/" />
+      <root url="file://F:/yt/android/spring-cloud-netflix/spring-cloud-netflix-zuul/src/main/java" />
+      <root url="file://F:/yt/android/spring-cloud-netflix/spring-cloud-netflix-zuul/src/test/java" />
     </SOURCES>
   </library>
 </component>
