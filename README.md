@@ -53,5 +53,12 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
       eureak [jʊ'rikə]，实现高可用的服务注册中心及微服务的注册与发现
       ribbon  ['rɪbən]、Feign  [fen]，实现服务间负载均衡的接口调用
       hystrix ，实现线程隔离并加入熔断机制
+      一般ribbon超时要小于hystrix
 
 8、增加zuul 对api访问接口转发路由，在增加accessfilter增加api接口访问权限控制
+   使用
+        http://localhost:5555/api-a/hello 访问HELLO-SERVICE的hello方法
+        http://localhost:5555/api-b/feign-consumer?accessToken=token 访问FEIGN-CONSUMER的feign-consumer方法
+   1)默认zuul增加eureak时会自动注册路由，可以适使用localhost:5555/<service-name>/<function-name>
+   2)不加accessToken 会报401错误
+   3)简单配置写法可以是zuul.routes.<serviceId>=<path>

@@ -15,11 +15,16 @@ public class AccessFilter extends ZuulFilter{
 
     @Override
     public String filterType() {
+        //pre，请求路由前调用
+        //routing,路由请求时被调用
+        //post,在routing和error过滤器之后被调用
+        //error,处理请求时发生错误被调用
         return "pre";
     }
 
     @Override
     public int filterOrder() {
+        //数值越小优先级越高
         return 0;
     }
 

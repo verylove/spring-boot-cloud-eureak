@@ -36,14 +36,14 @@ public class EurekaClientApplication {
 		ServiceInstance instance = serviceInstance();
 
 		//让处理线程等待几秒钟，模拟服务阻塞状态，Hystrix默认超时时间为1000毫秒，这里采用0~3000随机
-//		int sleepTime = new Random().nextInt(3);
-//		LOGGER.info("sleepTime:"+ sleepTime);
-//
-//		try {
-//			Thread.sleep(sleepTime);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
+		int sleepTime = new Random().nextInt(3000);
+		LOGGER.info("sleepTime:"+ sleepTime);
+
+		try {
+			Thread.sleep(sleepTime);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 		LOGGER.info("provider service, host = " + instance.getHost()
 				+ ", service_id = " + instance.getServiceId());
