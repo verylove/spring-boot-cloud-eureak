@@ -49,3 +49,9 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
 
 7、增加fallback ，不开启hello-server，自动服务降级
 
+小结：
+      eureak [jʊ'rikə]，实现高可用的服务注册中心及微服务的注册与发现
+      ribbon  ['rɪbən]、Feign  [fen]，实现服务间负载均衡的接口调用
+      hystrix ，实现线程隔离并加入熔断机制
+
+8、增加zuul 对api访问接口转发路由，在增加accessfilter增加api接口访问权限控制

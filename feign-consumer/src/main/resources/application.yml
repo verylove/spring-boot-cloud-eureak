@@ -1,19 +1,19 @@
-server:
-  port: 9002
-
-feign:
-  hystrix:
-    enabled: true
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
-  instance:
-    instance-id: ${spring.application.name}:localhost:${server.port}
-    prefer-ip-address: true
-spring:
-  application:
-    name:feign-consumer
-turbine:
-  app-config: helloworld,helloworldfeign
-  cluster-name-expression: "default"
+#server:
+#  port: 9002
+#
+#feign:
+#  hystrix:
+#    enabled: true
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:1111/eureka/
+#  instance:
+#    instance-id: ${spring.application.name}:localhost:${server.port}
+#    prefer-ip-address: true
+#spring:
+#  application:
+#    name:feign-consumer
+#turbine:
+#  app-config: helloworld,helloworldfeign
+#  cluster-name-expression: "default"

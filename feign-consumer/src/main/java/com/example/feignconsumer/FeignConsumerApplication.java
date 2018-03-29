@@ -24,6 +24,10 @@ public class FeignConsumerApplication {
 	 */
 	@Bean
 	Logger.Level feignLoggerLevel(){
+		//None，不记录任何信息
+		//BASIC,仅记录请求方法、URL及相应码和执行时间
+		//HEADERS,除了BASIC级别的信息外，还会记录相应信息头和时间
+		//FULL,记录全部
 		return Logger.Level.FULL;
 	}
 
