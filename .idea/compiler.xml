@@ -15,6 +15,7 @@
         <module name="hello-service-api" />
         <module name="hystrix-client" />
         <module name="hystrix-dashboard" />
+        <module name="rabbitmq-hello" />
         <module name="ribbon-consumer" />
         <module name="test-hystrix-client" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="hystrix" target="1.8" />
       <module name="hystrix-client" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
+      <module name="rabbitmq-hello" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
       <module name="test-hystrix-client" target="1.8" />
     </bytecodeTargetLevel>
