@@ -14,7 +14,12 @@
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway-dynamic-route/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/rabbitmq-hello/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/api-gateway-dynamic-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+>>>>>>> 8fb202ec8a0cf154aa0a2f8d0b128a629f1b939b
       </list>
     </option>
   </component>
