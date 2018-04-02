@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway-dynamic-filter/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-rabbit/pom.xml" />
       </list>
     </option>
   </component>

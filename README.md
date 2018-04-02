@@ -76,6 +76,9 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
  12. 增加config-client 使用 http://localhost:7002/from 访问，从配置中心7001读取git仓库远程配置信息
       增加访问权限，通过密码访问接口
  
+ 13. 实践spring cloud bus 使用config-server-rabbit 实现增加/bus/refresh 
+ 
+ 14. 
  
  
  
