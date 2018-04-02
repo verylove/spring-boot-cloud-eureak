@@ -16,7 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" filepath="$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-hystrix-client/test-hystrix-client.iml" filepath="$PROJECT_DIR$/test-hystrix-client/test-hystrix-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-1/trace-1.iml" filepath="$PROJECT_DIR$/trace-1/trace-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-2/trace-2.iml" filepath="$PROJECT_DIR$/trace-2/trace-2.iml" />
     </modules>
   </component>
 </project>

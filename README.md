@@ -78,7 +78,9 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
  
  13. 实践spring cloud bus 使用config-server-rabbit 实现增加/bus/refresh 
  
- 14. 
+ 14. 增加stream-hello 测试使用消息驱动 *
+ 
+ 15. 集成分布式服务器跟踪Sleuth，增加Logstash日志输出，trace-1 没有实现，trace-2会报错
  
  
  
