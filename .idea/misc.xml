@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
         <option value="$PROJECT_DIR$/trace-1/pom.xml" />
         <option value="$PROJECT_DIR$/trace-2/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -24,6 +24,7 @@
         <module name="test-hystrix-client" />
         <module name="trace-1" />
         <module name="trace-2" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +47,7 @@
       <module name="test-hystrix-client" target="1.8" />
       <module name="trace-1" target="1.8" />
       <module name="trace-2" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

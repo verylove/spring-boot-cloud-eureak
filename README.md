@@ -82,6 +82,12 @@ Hystrix 具备服务降级、服务熔断、线程和信号隔离、请求缓存
  
  15. 集成分布式服务器跟踪Sleuth，增加Logstash日志输出，trace-1 没有实现，trace-2会报错
  
+ 16. 通过ELK 收集信息, 与Zipkin整合，搭建Zipkin Server,使用localhost:9411访问Trace信息
+ 
+       1). ElasticSearch  
+       2). Logstash  
+       3). Kibana  
+ 
  
  
  

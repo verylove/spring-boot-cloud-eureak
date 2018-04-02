@@ -19,5 +19,6 @@
     <file url="file://$PROJECT_DIR$/test-hystrix-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trace-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trace-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-server" charset="UTF-8" />
   </component>
 </project>
